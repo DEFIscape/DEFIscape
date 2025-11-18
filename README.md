@@ -13,8 +13,9 @@
 
 ---
 
-**DEFIscape** is a Web3 recovery platform that helps users reclaim assets stuck inside abandoned or deprecated DeFi protocols.  
+**DEFIscape** is a non-custodial web interface that helps users reclaim assets stuck in abandoned or deprecated DeFi protocols.
 When UIs vanish, teams disappear, or hosting is shut down, staking contracts and LP vaults remain on-chain — but become inaccessible.
+DEFIscape restores one-click access — directly from your wallet 
 
 **DEFIscape restores access to these assets safely and transparently.**
 
@@ -96,17 +97,8 @@ Includes:
 
 ---
 
-## 🧩 Architecture Overview
-
-- /core Smart Contract Interaction Engine
-- /scanner Multichain Scanner (DeBank + custom logic)
-- /web SvelteKit Frontend + WalletConnect support
-- /catalog Protocol Metadata + Directory
 
 
-Lightweight, decentralized-first, deterministic.
-
----
 
 ## 🌐 Supported EVM Chains
 
@@ -137,12 +129,16 @@ Lightweight, decentralized-first, deterministic.
 
 - ✔ Live App — https://app.defiscape.io  
 - ✔ 25+ integrated protocols  
+- ✔ Support for 19 EVM chains  
 - ✔ Secure contract call system  
 - ✔ Multi-chain scanning  
 - ✔ Protocol directory online  
+- ✔ Manual rescue requests via Telegram bot  
 - ✔ Telegram support bot  
 
 DEFIscape is already used to recover real assets from abandoned DeFi protocols.
+
+Note: Basic unstake is free. Complex rescues (e.g. dead protocols with no liquidity) may require a fee to cover API and gas costs. All fees are disclosed before transaction
 
 ---
 
@@ -197,8 +193,9 @@ We welcome collaborations from:
 
 ## 📄 License
 
-Documentation in this repository is open.  
-The main application code remains private until the SDK release.
+This repository contains only documentation and public metadata.
+The core application is proprietary and closed-source to protect user experience and business logic.
+We may open-source non-sensitive components (e.g. protocol adapters) in the future.
 
 ---
 
