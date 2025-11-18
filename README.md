@@ -151,8 +151,10 @@ Note: Basic unstake is free. Complex rescues (e.g. dead protocols with no liquid
 
 ### **Q1 2026**
 - Universal Claim Module  
-- AI contract analyzer  
+- Manual rescue workflow for complex dead protocols
+- User-guided withdrawal flows (with gas estimation)
 - Global stuck TVL analytics  
+- Expand to 50+ protocols with community feedback
 
 ### **Q2 2026**
 - DEFIscape SDK  
