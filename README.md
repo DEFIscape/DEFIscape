@@ -98,10 +98,10 @@ Includes:
 
 ## 🧩 Architecture Overview
 
-/core Smart Contract Interaction Engine
-/scanner Multichain Scanner (DeBank + custom logic)
-/web SvelteKit Frontend + WalletConnect support
-/catalog Protocol Metadata + Directory
+- /core Smart Contract Interaction Engine
+- /scanner Multichain Scanner (DeBank + custom logic)
+- /web SvelteKit Frontend + WalletConnect support
+- /catalog Protocol Metadata + Directory
 
 
 Lightweight, decentralized-first, deterministic.
